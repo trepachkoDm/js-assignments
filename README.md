@@ -4,7 +4,7 @@
 [![GitHub release](https://img.shields.io/github/release/it-shark-pro/js-assignments.svg)](https://github.com/it-shark-pro/js-assignments/releases/latest)
 
 
-# [Brest IT Shark](https://it-shark.pro/)
+# [Brest IT Shark](https://it-shark.pro/trepachkoDm/js-assignments)
 [![IT Shark](https://avatars2.githubusercontent.com/u/34164782?s=200&v=4)](http://it-shark.pro/)
 ## Javascript Assignments
 
