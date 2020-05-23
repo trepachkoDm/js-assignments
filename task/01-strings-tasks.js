@@ -199,8 +199,9 @@ function extractEmails(str) {
  *
  */
 function getRectangleString(width, height) {
-  let str = '─'.repeat(width - 2);
-  return `┌${str}┐\n` + `│${' '.repeat(width - 2)}│\n`.repeat(height - 2) + `└${str}┘\n`;
+  const squareMy = '─'.repeat(width - 2);
+  return `┌${squareMy}┐\n` +
+    `│${' '.repeat(width - 2)}│\n`.repeat(height - 2) + `└${squareMy}┘\n`;
 }
 
 
@@ -221,9 +222,11 @@ function getRectangleString(width, height) {
  *
  */
 function encodeToRot13(str) {
-  return (str + '').replace(/[a-zA-Z]/gi, function (s) {
-    return String.fromCharCode(s.charCodeAt(0) + (s.toLowerCase() < 'n' ? 13 : -13))
-  })
+  return (str + '').replace(/[a-zA-Z]/gi,
+    function (s) {
+      return String.fromCharCode(s.charCodeAt(0)
+        + (s.toLowerCase() < 'n' ? 13 : -13));
+    });
 }
 
 /**
@@ -269,8 +272,8 @@ function isString(value) {
  *   'K♠' => 51
  */
 function getCardId(value) {
-  const deck = ['A♣', '2♣', '3♣', '4♣', '5♣', '6♣', '7♣', '8♣', '9♣', '10♣', 'J♣', 'Q♣', 'K♣', 'A♦', '2♦', '3♦', '4♦', '5♦', '6♦', '7♦', '8♦', '9♦', '10♦', 'J♦', 'Q♦', 'K♦', 'A♥', '2♥', '3♥', '4♥', '5♥', '6♥', '7♥', '8♥', '9♥', '10♥', 'J♥', 'Q♥', 'K♥', 'A♠', '2♠', '3♠', '4♠', '5♠', '6♠', '7♠', '8♠', '9♠', '10♠', 'J♠', 'Q♠', 'K♠'];
-  return deck.indexOf(value);
+  const inittialDesk = 'A♣,2♣,3♣,4♣,5♣,6♣,7♣,8♣,9♣,10♣,J♣,Q♣,K♣,A♦,2♦,3♦,4♦,5♦,6♦,7♦,8♦,9♦,10♦,J♦,Q♦,K♦,A♥,2♥,3♥,4♥,5♥,6♥,7♥,8♥,9♥,10♥,J♥,Q♥,K♥,A♠,2♠,3♠,4♠,5♠,6♠,7♠,8♠,9♠,10♠,J♠,Q♠,K♠';
+  return inittialDesk.split(',').indexOf(value);
 }
 
 module.exports = {
