@@ -582,8 +582,8 @@ function swapHeadAndTail(arr) {
   if (lenght % 2 !== 0 && lenght > 1) {
     const array = [...tail, arr[Math.floor(lenght / 2)], ...head];
     return array;
-  } else array = [...tail, ...head];
-  return array;
+  } 
+  return [...tail, ...head];
 }
 
 module.exports = {
