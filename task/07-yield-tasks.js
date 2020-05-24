@@ -125,7 +125,7 @@ function* depthTraversalTree(root) {
  *
  */
 function* breadthTraversalTree(root) {
-  const arr = [root];
+  let arr = [root];
   while (arr.length) {
     const element = arr.pop();
     yield element;
