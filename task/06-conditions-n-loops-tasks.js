@@ -49,8 +49,9 @@ function getFizzBuzz(num) {
  */
 function getFactorial(n) {
   let factorial = 1;
-  for (let i = 1; i <= n; i++)
+  for (let i = 1; i <= n; i++) {
     factorial *= i;
+  }
   return factorial;
 }
 
@@ -124,8 +125,7 @@ function isTriangle(a, b, c) {
  *
  */
 function doRectanglesOverlap(rect1, rect2) {
-  if (rect1.height >= rect2.top && rect1.width >= rect2.left)
-    return true;
+  if (rect1.height >= rect2.top && rect1.width >= rect2.left) return true;
   else return false;
 }
 
@@ -174,8 +174,7 @@ function isInsideCircle(circle, point) {
  */
 function findFirstSingleChar(str) {
   for (var i = 0; i < str.length; i++) {
-    if (str.indexOf(str[i]) === i && str.lastIndexOf(str[i]) === i)
-      return str[i];
+    if (str.indexOf(str[i]) === i && str.lastIndexOf(str[i]) === i) return str[i];
   }
   return null;
 }
