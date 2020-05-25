@@ -30,7 +30,7 @@ Rectangle.prototype = {
   getArea: function () {
     return this.width * this.height;
   }
-}
+};
 
 
 /**
