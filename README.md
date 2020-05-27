@@ -1,11 +1,11 @@
 [![Build Status](https://travis-ci.org/it-shark-pro/js-assignments.svg?branch=master)](https://travis-ci.org/trepachkoDm/js-assignments)
 ![Hackage-Deps](https://img.shields.io/hackage-deps/v/lens.svg)
 [![Greenkeeper badge](https://badges.greenkeeper.io/it-shark-pro/js-assignments.svg)](https://greenkeeper.io/)
-[![GitHub release](https://img.shields.io/github/release/it-shark-pro/js-assignments.svg)](https://github.com/trepachkoDm/js-assignments)
+[![GitHub release](https://img.shields.io/github/release/it-shark-pro/js-assignments.svg)](https://github.com/it-shark-pro/js-assignments/releases/latest)
 
 
-# [Brest IT Shark](https://trepachkoDm/js-assignments)
-[![IT Shark](https://avatars2.githubusercontent.com/u/34164782?s=200&v=4)](http://trepachkoDm/js-assignments)
+# [Brest IT Shark](https://it-shark.pro/)
+[![IT Shark](https://avatars2.githubusercontent.com/u/34164782?s=200&v=4)](http://it-shark.pro/)
 ## Javascript Assignments
 
 # DON'T FORGET to send your results! [Send Results](https://goo.gl/forms/AhDP2YQQ7SziByeU2)
@@ -85,7 +85,7 @@ and run the unit tests again. Find one test failed (red). Now it's time to fix i
 * Implement the function by any way and verify your solution by running tests until the failed test become passed (green).
 * Your solution work, but now time to refactor it. Try to make your code as pretty and simple as possible keeping up the test green.
 * Once you can't improve your code and tests are passed you can commit your solution.
-* Push your updates to github server and check if tests passed on [travis-ci](https://travis-ci.org/it-shark-pro/js-assignments/builds).
+* Push your updates to github server and check if tests passed on [travis-ci](https://travis-ci.org/trepachkoDm/js-assignments/builds).
 * If everything is OK you can try to resolve the next task.
 
 ### How to debug tasks
