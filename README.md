@@ -5,7 +5,7 @@
 
 
 # [Brest IT Shark](https://it-shark.pro/trepachkoDm/js-assignments)
-[![IT Shark](https://avatars2.githubusercontent.com/u/34164782?s=200&v=4)](http://it-shark.pro/)
+[![IT Shark](https://avatars2.githubusercontent.com/u/34164782?s=200&v=4)](http://it-shark.pro/trepachkoDm/js-assignments)
 ## Javascript Assignments
 
 # DON'T FORGET to send your results! [Send Results](https://goo.gl/forms/AhDP2YQQ7SziByeU2)
